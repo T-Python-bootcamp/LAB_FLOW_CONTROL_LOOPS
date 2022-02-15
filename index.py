@@ -6,10 +6,9 @@ for val in range(45,210):
         break
     print(val)
 
-resultUser = input("what is the product of 7 * 24 ?")
-while resultUser == "168":
-    print("You answered this Question correctly")
-    break
-else:
+resultUser = int(input("what is the product of 7 * 24 ?"))
+while not resultUser == 168:
     print("Your Answer is wrong try again..")
-    resultUser = input("what is the product of 7 * 24 ?")
+    resultUser = int(input("what is the product of 7 * 24 ?"))
+else:
+    print("You answered this Question correctly")
