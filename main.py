@@ -12,18 +12,16 @@ for number in range(45, 205):
     """    
 #------------------------
 
-y=0
+i = input("what is the product of 7 * 24 ?")
 
-while y == 0:
+
+while int(i) != 168 :
+    print("Your Answer is wrong try again..")
     i = input("what is the product of 7 * 24 ?")
-    
-    if i == 168:
-        y + 1
-        print("You answered this Question correctly")
-        break
-        
-    else:
-        print("Your Answer is wrong try again..") 
+
+
+else:
+    print("You answered this Question correctly") 
         
 
     
